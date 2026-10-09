@@ -10,9 +10,9 @@ div {
 }
 .container {
     display: grid;
-    grid-template-columns: 0fr 0fr;
+    grid-template-columns: 1fr 1fr;
     gap: 20px;
-    grid-template-columns: 0fr 0fr;
+    grid-template-columns: 1fr 1fr;
     grid-auto-rows: 50px;
 }
 .container > div {
