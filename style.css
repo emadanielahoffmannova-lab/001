@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+div {
+    width: 50%;
+    aspect-ratio: 1 / 1;
+    background: aqua;
+}
+.container {
+    display: grid;
+    grid-template-columns: 0fr 0fr;
+    gap: 20px;
+    grid-template-columns: 0fr 0fr;
+    grid-auto-rows: 50px;
+}
+.container > div {
+    background-color: deeppink;
+    padding: 20px;
+}
+div.box {
+    background-color: deeppink;
+    color: black;
+    padding: 10px 10px;
+    border: none;
+}
+div.box:hover {
+    background-color: black;
+    cursor: pointer;
+}
+</style>       
